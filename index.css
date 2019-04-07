@@ -1,0 +1,110 @@
+body{
+    margin: 0; 
+}
+
+/*styling the projects sections of the web page*/
+.projects{
+    background-color: snow; 
+    height: 1200px; 
+    position: relative;
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+}
+
+
+#projectHeader{
+    position: absolute; 
+    font-size: 65px; 
+    color: darkslategray;
+    top: 15%; 
+}
+
+/*style Ron Swanson project*/
+
+.quoteMachine{
+    position: absolute; 
+    top: 35%;
+    left: 20%; 
+    border: 5px solid darkslategray;  
+    background-color: white;
+    height: 245px;
+}
+
+.quoteMachine p{
+    font-size: 15px;
+    text-align: center; 
+}
+
+/*style Tic Tac Toe project*/
+
+.TTT{
+    position: absolute; 
+    top: 35%; 
+    left: 65%; 
+    border: 5px solid darkslategray; 
+    background-color: white; 
+    height: 245px; 
+}
+
+.TTT p{
+    font-size: 15px; 
+    text-align: center; 
+}
+
+/*styling of the navigation bar that scrolls with user*/
+.link{
+    float: right; 
+    text-decoration: none; 
+    margin-left: 10px;
+    margin-right: 10px;   
+    list-style-type: none; 
+    margin-top: 0;
+}
+
+.navBar{
+    position: fixed; 
+    margin: 0;
+    padding:0;
+    z-index: 1;
+    width: 100%;
+    background-color: black;
+    height: 50px;
+}
+
+.navLink{
+    display: block;
+    color: white;
+    text-decoration: none; 
+    font-style: bold;
+    padding: 8px; 
+    font-size: 20px;
+}
+
+.navLink:hover{
+  color: lightgreen;
+}
+
+/*styling the contact footer*/
+.contacts{
+    background-color: black; 
+}
+
+#creator{
+    margin: 0; 
+    color: white; 
+    font-size: 20px; 
+    text-align: center; 
+}
+
+#phone{
+    color: white;
+    font-size: 20px;
+    text-align: center; 
+}
+
+#email{
+    color: white;
+    font-size: 20px; 
+    text-align: center; 
+}
