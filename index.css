@@ -88,6 +88,7 @@ body{
 /*styling the contact footer*/
 .contacts{
     background-color: black; 
+    height: 150px;
 }
 
 #creator{
