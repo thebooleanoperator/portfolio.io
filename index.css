@@ -41,7 +41,7 @@ body{
     position: absolute;
     text-align: center;
     font-size: 35px;
-    color: whitesmoke; 
+    color: white; 
 }
 
 
@@ -50,7 +50,7 @@ body{
 .TTT{
     position: absolute;
     top: 45%; 
-    left: 53%; 
+    left: 58%; 
 }
 
 .TTT img{
@@ -62,7 +62,7 @@ body{
     position: absolute;
     text-align: center;
     font-size: 35px;
-    color: whitesmoke;
+    color: white;
 }
 
 /*styling of the navigation bar that scrolls with user*/
