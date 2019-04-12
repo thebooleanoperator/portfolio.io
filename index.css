@@ -45,7 +45,7 @@ body{
     font-size: 100px; 
     color: rgba(6, 17, 77, 0.75);
     text-align: center;
-    margin: 175px 0 0 0;
+    margin: 100px 0 0 0;
 }
 
 /*styling the projects sections of the web page*/
@@ -84,7 +84,7 @@ body{
 
 .quoteMachine:hover #quoteDescription{
     margin: 0;
-    top: 600px;
+    top: 500px;
     display: block;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
@@ -126,7 +126,7 @@ body{
 
 .TTT:hover #TTTDescription{
     margin: 0;
-    top: 600px;
+    top: 500px;
     display: block;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
