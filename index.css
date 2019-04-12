@@ -120,7 +120,7 @@ body{
 }
 
 .TTT:hover #TTTDescription{
-    margin: 40px 50px 0 0;
+    margin: 400px 50px 0 0;
     display: flex;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
