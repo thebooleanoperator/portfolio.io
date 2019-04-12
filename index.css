@@ -7,6 +7,8 @@ body{
     background-size: cover; 
     box-shadow: inset 0 0 0 1000px rgba(164, 176, 245, 0.23);
     position: relative;
+    height: 100%;
+    width: 100%;
 }
 
 /*styling of the navigation bar that scrolls with user*/
@@ -45,7 +47,7 @@ body{
     font-size: 100px; 
     color: rgba(6, 17, 77, 0.75);
     text-align: center;
-    margin: 100px 0 0 0;
+    margin: 8% auto;
 }
 
 /*styling the projects sections of the web page*/
@@ -83,8 +85,7 @@ body{
 }
 
 .quoteMachine:hover #quoteDescription{
-    margin: 0;
-    top: 500px;
+    margin: 0 568px 0 0;
     display: block;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
@@ -125,10 +126,9 @@ body{
 }
 
 .TTT:hover #TTTDescription{
-    margin: 0;
-    top: 500px;
+    margin: 0 0 0 550px;
     display: block;
-    position: absolute;
+    position: fixed;
     background-color: rgba(227, 231, 250, 0.705);
     color: rgb(2, 7, 32);
     width: 75%;
