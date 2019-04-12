@@ -1,11 +1,11 @@
 body{
     margin: 0; 
     padding: 0;
-    background-image: url("https://images.pexels.com/photos/1038935/pexels-photo-1038935.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./background.png");
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: cover; 
-    box-shadow: inset 0 0 0 1000px rgba(194, 202, 247, 0.23);
+    box-shadow: inset 0 0 0 1000px rgba(164, 176, 245, 0.23);
     position: relative;
 }
 
@@ -82,7 +82,7 @@ body{
 
 .quoteMachine:hover #quoteDescription{
     margin: 400px 50px 0 0;
-    display: block;
+    display: flex;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
     color: rgb(2, 7, 32);
@@ -121,7 +121,7 @@ body{
 
 .TTT:hover #TTTDescription{
     margin: 400px 50px 0 0;
-    display: block;
+    display: flex;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
     color: rgb(2, 7, 32);
