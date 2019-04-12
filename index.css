@@ -42,7 +42,7 @@ body{
 
 /*Title of my projects*/
 #projectHeader{
-    font-size: 75px; 
+    font-size: 100px; 
     color: rgba(6, 17, 77, 0.75);
     text-align: center;
     margin: 175px 0 0 0;
@@ -59,7 +59,7 @@ body{
 /*style Ron Swanson project*/
 
 .quoteMachine{
-    margin: 0 30px 0 0;
+    margin: 0 50px 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,24 +84,24 @@ body{
 
 .quoteMachine:hover #quoteDescription{
     margin: 0;
-    top: 500px;
-    display: flex;
+    top: 600px;
+    display: block;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
     color: rgb(2, 7, 32);
     width: 75%;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
-    border-radius: 10%;
     height: auto;
-    width: 700px;
+    width: auto;
+    overflow: visible;
 }
 
 /*style Tic Tac Toe project*/
 
 .TTT{
-    margin: 0 0 0 30px;
+    margin: 0 0 0 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,28 +126,28 @@ body{
 
 .TTT:hover #TTTDescription{
     margin: 0;
-    top: 500px;
-    display: flex;
+    top: 600px;
+    display: block;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
     color: rgb(2, 7, 32);
     width: 75%;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 15px;
     text-align: center;
-    border-radius: 10%;
     height: auto;
-    width: 700px;
+    width: auto;
+    overflow: visible;
 }
 
 /*styling the contact footer*/
 .contacts{
-    margin: 0;
+    margin: 50px 0 0 0;
     padding:0;
     width: 100%;
     background-color: black;
     overflow: hidden;
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
