@@ -70,10 +70,12 @@ body{
     border-radius: 50%;
     border: 5px solid rgba(194, 202, 247, 0.23);
     display: block;
+    opacity: .7;
 }
 .quoteMachine img:hover{
     border-radius: 50%;
     border: 8px solid rgba(6, 17, 77, 0.815); 
+    opacity: 1;
 }
 
 #quoteDescription{
@@ -109,11 +111,13 @@ body{
 .TTT img{
     border: 5px solid rgba(194, 202, 247, 0.23);
     border-radius: 50%; 
+    opacity: .7; 
 }
 
 .TTT img:hover{
     border-radius: 50%;
     border: 8px solid rgba(6, 17, 77, 0.815);
+    opacity: 1; 
 }
 
 #TTTDescription{
