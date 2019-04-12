@@ -47,7 +47,7 @@ body{
     font-size: 100px; 
     color: rgba(6, 17, 77, 0.75);
     text-align: center;
-    margin: 8% auto;
+    margin: 8% 0 0 0;
 }
 
 /*styling the projects sections of the web page*/
@@ -55,13 +55,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 50px 0 0 0; 
+    margin: 2% 0 0 0; 
 }
 
 /*style Ron Swanson project*/
 
 .quoteMachine{
-    margin: 0 50px 0 0;
+    margin: 0 5% 0 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,7 +85,7 @@ body{
 }
 
 .quoteMachine:hover #quoteDescription{
-    margin: 0 568px 0 0;
+    margin: 330px 0 0 0;
     display: block;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
@@ -102,7 +102,7 @@ body{
 /*style Tic Tac Toe project*/
 
 .TTT{
-    margin: 0 0 0 50px;
+    margin: 0 0 0 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -126,7 +126,7 @@ body{
 }
 
 .TTT:hover #TTTDescription{
-    margin: 0 0 0 550px;
+    margin: 330px 0 0 0;
     display: block;
     position: fixed;
     background-color: rgba(227, 231, 250, 0.705);
