@@ -43,9 +43,9 @@ body{
 /*Title of my projects*/
 #projectHeader{
     font-size: 75px; 
-    color: rgba(6, 17, 77, 0.815);
+    color: rgba(6, 17, 77, 0.75);
     text-align: center;
-    margin: 125px 0 0 0;
+    margin: 175px 0 0 0;
 }
 
 /*styling the projects sections of the web page*/
