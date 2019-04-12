@@ -81,7 +81,8 @@ body{
 }
 
 .quoteMachine:hover #quoteDescription{
-    margin: 400px 50px 0 0;
+    margin: 0;
+    top: 500px;
     display: flex;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
@@ -120,7 +121,8 @@ body{
 }
 
 .TTT:hover #TTTDescription{
-    margin: 400px 50px 0 0;
+    margin: 0;
+    top: 500px;
     display: flex;
     position: absolute;
     background-color: rgba(227, 231, 250, 0.705);
