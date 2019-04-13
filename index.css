@@ -5,7 +5,7 @@ body{
     background-position: center center; 
     background-repeat: no-repeat;
     background-size: cover; 
-    box-shadow: inset 0 0 0 1000px rgba(164, 176, 245, 0.23);
+    box-shadow: inset 0 0 0 1000px rgba(247, 104, 104, 0.23);
     position: relative;
     height: 100%;
     width: 100%;
@@ -39,13 +39,13 @@ body{
 }
 
 .navLink:hover{
-  color: rgba(134, 151, 248, 0.8);
+  color: rgba(250, 104, 104, 0.8);
 }
 
 /*Title of my projects*/
 #projectHeader{
     font-size: 12vh; 
-    color: rgba(6, 17, 77, 0.75);
+    color: rgba(36, 2, 2, 0.75);
     text-align: center;
     margin: 8% 0 0 0;
 }
@@ -79,7 +79,7 @@ body{
 }
 .quoteMachine img:hover{
     border-radius: 50%;
-    border: 8px solid rgba(6, 17, 77, 0.815); 
+    border: 8px solid rgba(90, 11, 11, 0.815); 
     opacity: 1;
 }
 
@@ -126,7 +126,7 @@ body{
 
 .TTT img:hover{
     border-radius: 50%;
-    border: 8px solid rgba(6, 17, 77, 0.815);
+    border: 8px solid rgba(90, 11, 11, 0.815); 
     opacity: 1; 
 }
 
